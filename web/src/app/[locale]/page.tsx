@@ -88,7 +88,7 @@ export default function Home({ params: { locale } }: Props) {
             </div>
 
             <div className='flex flex-col md:flex-row items-center gap-4 justify-center'>
-              <Link
+              <a
                 href='/test'
                 className={clsx(
                   buttonStyles({
@@ -102,7 +102,7 @@ export default function Home({ params: { locale } }: Props) {
                 )}
               >
                 {t('call_to_action')} <ArrowRightIcon />
-              </Link>
+              </a>
               <Link
                 isExternal
                 className={clsx(
